@@ -1,0 +1,108 @@
+MogIt -  Epsilon Edition
+##13/08/2018
+
+##Last updated:13/08/2018
+
+##Credits to original MogIt creators.
+##Edits authored by Graydon
+
+##Adding extra races
+
+#Add to library for text - will not appear in interface\options if not done.
+
+Libs\LibBabble-Race-3.0\LibBabble-Race-3.0.lua:19
+Example for Allied races
+
+	["Void Elf"] = "Void Elf", --Epsi Edit
+	["Void elves"] = "Void elves",
+	["Highmountain Tauren"] = "Highmountain Tauren",
+	["Lightforged Draenei"] = "Lightforged Draenei",
+	Nightborne = "Nightborne",
+    Must have bracket names for spaces - as well as for plurals. Don't worry if there aren't any plurals.
+    e.g.
+    Tauren = "Tauren",
+    ["Kul Tiran Human"] = "Kul Tiran Human",
+    Vulpera = "Vulpera",
+
+#
+#
+#
+Adds races to context menus in mogit. Preview
+Core\GUI.lua:6
+Add to end of array
+
+local races = {
+   "Human",
+   "Dwarf",
+   "Night Elf",
+   "Gnome",
+   "Draenei",
+   "Worgen",
+   "Orc",
+   "Undead",
+   "Tauren",
+   "Troll",
+   "Blood Elf",
+   "Goblin",
+   "Pandaren",
+   "Void Elf",
+   "Highmountain Tauren",
+   "Lightforged Draenei",
+   "Nightborne",
+}
+
+Add Race IDS
+add on to end of array.
+Core\GUI.lua:26
+local raceID = {
+   ["Human"] = 1,
+   ["Orc"] = 2,
+   ["Dwarf"] = 3,
+   ["Night Elf"] = 4,
+   ["Undead"] = 5,
+   ["Tauren"] = 6,
+   ["Gnome"] = 7,
+   ["Troll"] = 8,
+   ["Goblin"] = 9,
+   ["Blood Elf"] = 10,
+   ["Draenei"] = 11,
+   ["Worgen"] = 22,
+   ["Pandaren"] = 24,
+   ["Void Elf"] = 29,
+   ["Highmountain Tauren"] = 28,
+   ["Lightforged Draenei"] = 30,
+   ["Nightborne"] = 27,
+}
+#
+#
+#
+
+##Adding items to custom epsilon modules
+add with format below existing module slot.lua
+i(itemID,nil,displayID,nil,nil,nil,nil,nil,nil,EQUIPSLOT,nil,nil,nil)
+
+#displayID is obtained by removing first digit of itemID
+e.g.
+9001861 -> 001861 -> 1861 (remove excess 0's, though it doesn't matter terribly much).
+
+#Slot is first digit of itemID - 1.
+9001861 -> 9 -> 8
+
+Consult: https://wow.gamepedia.com/Equipment_slot#Equipment_slots_in_macros
+Double check item equip by adding itemID in-game before putting items through excel function.
+
+Taken from MogIt_Epsilon_Cloth\feet.lua:2
+i(9001861,nil,001861,nil,nil,nil,nil,nil,nil,8,nil,nil,nil)
+
+##Adding items to default MogIt modules
+
+Consult: MogIt\Modules\base.lua:14-41 for AddSlot function
+SYNTAX
+i(itemID, bonusID, display, quality, lvl, faction, class, bind, slot, source, sourceid, zone, sourceinfo)
+
+No BONUS ID: Taken from MogIt_cloth\Head.lua:2
+i(2620,nil,15284,2,34,nil,nil,2,nil,1,nil,nil,nil)
+
+BONUS ID: Taken from MogIt_cloth\Head.lua:912
+i(124158,566,141375,4,100,nil,nil,3,nil,1,93068,nil,9)
+

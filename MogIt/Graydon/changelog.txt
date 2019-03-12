@@ -1,0 +1,106 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+Date system: YYYY/MM/DD
+
+## [Unreleased]
+
+## [0.1.0] - 2018-07-25
+### Added 
+-Epsilon_armour.lua
+-Epsilon_weapons.lua
+
+### Fixed
+-Fixed mogit item previews (No longer adds items as sets)
+
+## [0.1.5] - 2018-07-27
+### Changed
+-Split Epsilon_armour into seperate modules
+
+### Added
++Epsilon_Cloth module
++Epsilon_Leather module
++Epsilon_Mail module
++Epsilon_Plate module
+
+## [0.2.0] - 2018-07-30
+### Added
++Missing items
++Robe_
++Raidmage_
+
+## [0.2.5] - 2018-08-03
+### Added
++Missing items
++Draenei_
++Boots: Cloth, Leather, Mail, Plate
++Ctrl+leftmouse in dressup frame now adds items to inventory
+
+## [0.3.0] - 2018-08-09
+### Added
++Added Epsilon_Other module
++Added heritage armour
+
+### Changed
+-Filtering items no longer fires whenever text changes
+-Filtering items now executes once enter key is pressed
+
+### Bugs
+-FPS drops when filtering
+:Possible fix: load onUpdate instead of all at once
+
+## [0.3.5] - 2018-08-12
+### Added
++Additem button to MogIt context menus
++Missing allied races
+
+
+## [0.4.0] - 2018-08-13
+### Added
++Weapon sheathe to dressup frame
++Weapon sheathe to MogIt preview tooltip
++Weapon sheathe text to dressing room help frame
+
+### Changed
+-Ctrl + leftmouse in dressup frame now checks for bonusIDs and adds item with bonusID if present
+-Additem context menu button now checks for bonusIDs and adds item with bonusID if present
+
+## [0.4.5] - 2018-08-13
+### Added
++Weapon sheathe toggle to main preview frame
++Weapon sheathe help text to main preview frame
+
+## [0.4.6] - 2018-08-13
+### Added
++Add set button to mogIt dressup room. Adds items with correct bonusIDs if they are present.
+
+## [0.4.7a] - 2018-09-22
+### Added
++Equipment manager functionality. Adds button to DressingRoom > Epsilon context menu: Equip Item Set. Finds items in bag and equips them, otherwise it adds missing item to inventory, THEN equips.
++Missing items: mail_d_04
+
+## [0.4.7b - 2018-09-23
+### Added
++Wishlist equip set button to right click context menu.
+
+## [0.4.8] - 2018-11-04
+### Added
++Catalogue > Sorting > Alphabetical. Sorts items alphabetically.
+
+## [0.4.9] - 2018-12-28
+### Added
++MogIt > General Options Menu > Epsilon specific Options: Toggle [MogIt] messages, Toggle Debug, Delete Equipped Items on Unequip.
++Missing Items matching case:
+	pvp _d
+
+###Changes
+*Fixed Options button to take user directly to MogIt options
+
+
+
+
+
+
+
+
+
+

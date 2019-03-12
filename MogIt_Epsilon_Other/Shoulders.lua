@@ -1,0 +1,21 @@
+local i=MogIt.base.AddSlot("Shoulder",...)
+i(1154442,nil,154442,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1160029,nil,160029,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1162188,nil,162188,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1162226,nil,162226,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1162801,nil,162801,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1162814,nil,162814,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+--08/08 heritage armour
+i(1165340,nil,165340,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165349,nil,165349,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165361,nil,165361,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165374,nil,165374,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165381,nil,165381,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165385,nil,165385,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165392,nil,165392,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165418,nil,165418,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1166969,nil,166969,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165322,nil,165322,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1165331,nil,165331,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+--09/08 heritage
+
