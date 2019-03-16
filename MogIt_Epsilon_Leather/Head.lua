@@ -988,5 +988,17 @@ i(1158970,nil,158970,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
 i(1158971,nil,158971,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
 i(1158972,nil,158972,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
 i(1159419,nil,159419,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+--15/03/19 helm_leather_raidmonk_p && helm_leather_raidmonkmythic_p
+i(1142467,nil,142467,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1142480,nil,142480,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1142490,nil,142490,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1142508,nil,142508,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1147182,nil,147182,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1147205,nil,147205,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1147206,nil,147206,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1150290,nil,150290,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+--raidmonkmythic_p
+i(1142518,nil,142518,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(1142532,nil,142532,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
 
 

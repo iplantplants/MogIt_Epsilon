@@ -42,7 +42,6 @@ raceID = {
    ["Highmountain Tauren"] = 28,
    ["Lightforged Draenei"] = 30,
    ["Nightborne"] = 27,
-   
 }
 
 -- UnitRace returns differently for the following races, so need to include exceptions

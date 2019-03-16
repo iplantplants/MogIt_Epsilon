@@ -1,0 +1,5 @@
+local i=MogIt.base.AddSlot("Tabard",...)
+i(157756,nil,160027,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(157757,nil,160028,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(157758,nil,160029,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
+i(157759,nil,160030,nil,nil,nil,nil,nil,nil,2,nil,nil,nil)
