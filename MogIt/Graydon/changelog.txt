@@ -92,8 +92,12 @@ Date system: YYYY/MM/DD
 +Missing Items matching case:
 	pvp _d
 
-###Changes
+### Changes
 *Fixed Options button to take user directly to MogIt options
+
+### [0.5.0] - 2019-03-15
+### Added
++Missing items: helm_raidmonk_p and mythic variant
 
 
 
