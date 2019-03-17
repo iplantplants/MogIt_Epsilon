@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70300
 ## Author: Aelobin (The Maelstrom EU) & Lombra (Defias Brotherhood EU)
 ## Version: 3.6.5
 ## LoadOnDemand: 1

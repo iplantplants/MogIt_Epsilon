@@ -1,5 +1,5 @@
-## Interface: 70200
-## Author: Aelobin (The Maelstrom EU) & Lombra (Defias Brotherhood EU)
+## Interface: 70300
+## Author: Epsilon Development Team
 ## Version: 3.6.5
 ## LoadOnDemand: 1
 ## RequiredDeps: MogIt
