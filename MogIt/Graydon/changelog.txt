@@ -99,6 +99,10 @@ Date system: YYYY/MM/DD
 ### Added
 +Missing items: helm_raidmonk_p and mythic variant
 
+### [0.5.1] - 2019-03-17
+### Changed
+* Interface version inconsistencies from 7.0 (70000), 7.2 (70200)->7.3 (70300)
+
 
 
 
