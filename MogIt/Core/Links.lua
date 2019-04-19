@@ -164,6 +164,8 @@ function ItemRefTooltip:SetHyperlink(link)
 	else
 		if link:match("lnkfer") then
 			--do nothing
+		elseif link:match("forgecreature_entry") or link:match("nx") then
+			--do nothing
 		else
 		SetHyperlink(self, link);
 		end

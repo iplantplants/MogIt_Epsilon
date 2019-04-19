@@ -584,7 +584,7 @@ end
 
 local function equipItemFromBag(itemID)
 	if itemID ~= 0 then
-	C_Timer.NewTicker(3, function(self)
+	C_Timer.NewTicker(1.5, function(self)
 		if not mog.db.profile.toggleMessages then
 			print("|cff00ccff[MogIt]|r equipping item: "..itemID)
 		end
