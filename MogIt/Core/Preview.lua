@@ -359,7 +359,9 @@ local previewMenu = {
 }
 
 local function equipNPC(self)
-	print(currentPreview.data.displayRace, currentPreview.data.displayGender)
+	if not mog.db.profile.toggleDebug then
+		print("|cff00ccff[MogIt]|r debug:", currentPreview.data.displayRace, currentPreview.data.displayGender)
+	end
 
 	SendChatMessage(".ph forge npc outfit race "..currentPreview.data.displayRace, "GUILD");
 
