@@ -48,10 +48,14 @@ lib:SetBaseTranslations {
 	Voidwalker = "Voidwalker",
 	Worgen = "Worgen",
 	Worgen_PL = "Worgen",
-	["Void Elf"] = "Void Elf", --Epsi Edit
+	["Void Elf"] = "Void Elf",
 	["Void elves"] = "Void elves",
-	["Highmountain Tauren"] = "Highmountain Tauren",
+	["Nightborne"] = "Nightborne",
+	["Nightborne_PL"] = "Nightborne",
 	["Lightforged Draenei"] = "Lightforged Draenei",
+	["Lightforged Draenei_PL"] = "Lightforged Draenei",
+	["Highmountain Tauren"] = "Highmountain Tauren",
+	["Highmountain Tauren_PL"] = "Highmountain Tauren",
 	Nightborne = "Nightborne",
 }
 

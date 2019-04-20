@@ -3,51 +3,52 @@ local L = mog.L;
 
 local LBR = LibStub("LibBabble-Race-3.0"):GetUnstrictLookupTable();
 
-races = {
-   "Human",
-   "Dwarf",
-   "Night Elf",
-   "Gnome",
-   "Draenei",
-   "Worgen",
-   "Orc",
-   "Undead",
-   "Tauren",
-   "Troll",
-   "Blood Elf",
-   "Goblin",
-   "Pandaren",
-   "Void Elf",
-   "Highmountain Tauren",
-   "Lightforged Draenei",
-   "Nightborne",
-}
-
-raceID = {
-   ["Human"] = 1,
-   ["Orc"] = 2,
-   ["Dwarf"] = 3,
-   ["Night Elf"] = 4,
-   ["Undead"] = 5,
-   ["Tauren"] = 6,
-   ["Gnome"] = 7,
-   ["Troll"] = 8,
-   ["Goblin"] = 9,
-   ["Blood Elf"] = 10,
-   ["Draenei"] = 11,
-   ["Fel Orc"] = 12,
-   ["Worgen"] = 22,
-   ["Pandaren"] = 24,
-   ["Void Elf"] = 29,
-   ["Highmountain Tauren"] = 28,
-   ["Lightforged Draenei"] = 30,
-   ["Nightborne"] = 27,
-}
+local races = {
+	"Human",
+	"Dwarf",
+	"Night Elf",
+	"Gnome",
+	"Draenei",
+	"Worgen",
+	"Orc",
+	"Undead",
+	"Tauren",
+	"Troll",
+	"Blood Elf",
+	"Goblin",
+	"Pandaren",
+	"Lightforged Draenei",
+	"Void Elf",
+	"Highmountain Tauren",
+	"Nightborne",
+ }
+ 
+ local raceID = {
+	["Human"] = 1,
+	["Orc"] = 2,
+	["Dwarf"] = 3,
+	["Night Elf"] = 4,
+	["Undead"] = 5,
+	["Tauren"] = 6,
+	["Gnome"] = 7,
+	["Troll"] = 8,
+	["Goblin"] = 9,
+	["Blood Elf"] = 10,
+	["Draenei"] = 11,
+	["Worgen"] = 22,
+	["Pandaren"] = 24,
+	["Nightborne"] = 27,
+	["Highmountain Tauren"] = 28,
+	["Void Elf"] = 29,
+	["Lightforged Draenei"] = 30,
+ }
 
 -- UnitRace returns differently for the following races, so need to include exceptions
-raceID["NightElf"] = raceID["Night Elf"]
 raceID["Scourge"] = raceID["Undead"]
-raceID["BloodElf"] = raceID["Blood Elf"]
+--remove space
+for i, race in ipairs(races) do
+	raceID[race:gsub("%s", "")] = raceID[race]
+end
 
 local gender = {
 	[0] = MALE,

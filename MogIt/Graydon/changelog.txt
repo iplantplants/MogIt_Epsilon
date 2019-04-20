@@ -104,7 +104,10 @@ Date system: YYYY/MM/DD
 * Interface version inconsistencies from 7.0 (70000), 7.2 (70200)->7.3 (70300)
 * Timer when equipping item sets reduced from 3 seconds to 1.5
 
-
+### [0.5.5] - 2019-04-20
+### Changed
+* Fixed issue with allied races and equipping outfits on NPC characters.
+* Removed spaces from allied race names so they work now.
 
 
 
